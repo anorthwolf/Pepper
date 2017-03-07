@@ -1,0 +1,12 @@
+<StackLayout>
+    <TextView text="Note List"></TextView>
+    <ListView [items]="notes" (itemTap)="onItemTap($event)">
+        <template>
+            <Label [text]="title" class="medium-label"></Label>
+            <Label [text]="submitter" class="small-label"></Label>
+            <Label [text]="entryType" class="small-label"></Label>
+            <Label [text]="displayDate" class="small-label"></Label>
+            <Label [text]="priority" class="small-label"></Label>
+        </template>
+    </ListView>
+</StackLayout>

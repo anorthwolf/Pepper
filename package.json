@@ -1,0 +1,52 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "https://git.advent.com/projects/TAM/repos/tamalenative/browse",
+  "nativescript": {
+    "id": "com.advent.tamalenative",
+    "tns-android": {
+      "version": "2.4.1"
+    },
+    "tns-ios": {
+      "version": "2.4.0"
+    }
+  },
+  "dependencies": {
+    "@angular/common": "2.2.1",
+    "@angular/compiler": "2.2.1",
+    "@angular/core": "2.2.1",
+    "@angular/forms": "2.2.1",
+    "@angular/http": "2.2.1",
+    "@angular/platform-browser": "2.2.1",
+    "@angular/platform-browser-dynamic": "2.2.1",
+    "@angular/router": "3.2.1",
+    "nativescript-angular": "1.2.0",
+    "nativescript-local-notifications": "^1.2.0",
+    "nativescript-theme-core": "^0.2.1",
+    "nativescript-unit-test-runner": "^0.3.4",
+    "reflect-metadata": "~0.1.8",
+    "rxjs": "5.0.0-beta.12",
+    "tns-core-modules": "^2.4.2"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.41",
+    "babel-traverse": "6.21.0",
+    "babel-types": "6.21.0",
+    "babylon": "6.15.0",
+    "jasmine-core": "^2.5.2",
+    "karma": "^1.4.0",
+    "karma-coverage": "^1.1.1",
+    "karma-jasmine": "^1.1.0",
+    "karma-junit-reporter": "^1.2.0",
+    "karma-nativescript-launcher": "^0.4.0",
+    "karma-spec-reporter": "0.0.26",
+    "lazy": "1.0.11",
+    "nativescript-dev-android-snapshot": "^0.*.*",
+    "nativescript-dev-sass": "^0.4.1",
+    "nativescript-dev-typescript": "^0.3.6",
+    "nativescript-hook": "^0.2.1",
+    "typescript": "^2.0.10",
+    "zone.js": "~0.6.21"
+  }
+}
